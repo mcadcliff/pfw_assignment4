@@ -13,15 +13,15 @@ var demosthenes = {name: “Demosthenes”,
 
 
 var speeches = [churchill, ghandi, demosthenes];
-//array of speeches’ objects//
+//array of speech objects//
 
  
 var difference = (ghandi.year - churchill.year);
-// difference between speeches’ years//
+// difference between speeches in years//
 
 window.onload = function()
 {console.log(“Ghandi and Churchill’s speeches are “ + difference + “ years apart.”);};
-
+//difference between speeches in years//
 
 document.getElementById('BtnDonate').addEventListener('click', function(){ 
 console.log ("There are " + speeches.length + "speeches on this page.")});
